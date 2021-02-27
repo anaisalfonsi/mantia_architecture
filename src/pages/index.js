@@ -1,15 +1,14 @@
-import * as React from "react"
+import * as React from "react";
+import Layout from "../components/layout/index";
 
-const IndexPage = () => {
+export default function Home() {
   return (
-    <main>
-      <title>Home Page</title>
+    <Layout>
+      <title>Accueil | Groupe Mantia</title>
       <h1>
-        Congratulations
+        Page d'Accueil
         <br />
       </h1>
-    </main>
+    </Layout>
   )
 }
-
-export default IndexPage
