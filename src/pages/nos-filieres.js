@@ -9,7 +9,7 @@ export default function Companies() {
           <div className="py-8 justify-items-center">
             <h1 className="absolute z-50 text-2xl block uppercase tracking-wide text-xs font-bold home-title">Page Nos Filières</h1>
           </div>
-                <img className="relative h-1/6 opacity-60 home-cover-img" src="https://via.placeholder.com/1000x500.jpg" alt="mantia cover image"/>
+                <img className="relative h-1/6 opacity-60 companies-img" src="https://via.placeholder.com/1000x500.jpg" alt="mantia filieres"/>
         </div>
       </Layout>
     );

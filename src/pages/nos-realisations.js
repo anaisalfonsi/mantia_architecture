@@ -9,7 +9,7 @@ export default function Achievements() {
           <div className="py-8 justify-items-center">
             <h1 className="absolute z-50 text-2xl block uppercase tracking-wide text-xs font-bold home-title">Page Nos Réalisations</h1>
           </div>
-                <img className="relative h-1/6 opacity-60 home-cover-img" src="https://via.placeholder.com/1000x500.jpg" alt="mantia cover image"/>
+                <img className="relative h-1/6 opacity-60 achievements-img" src="https://via.placeholder.com/1000x500.jpg" alt="mantia realisations"/>
         </div>
       </Layout>
     );
