@@ -11,17 +11,25 @@ const navs = [
         name: 'Le Groupe'
     },
     {
-        path: '/contact/',
-        name: 'Contactez-nous'
+        path: '/nos-filieres/',
+        name: 'Nos Filières'
+    },
+    {
+        path: '/nos-realisations/',
+        name: 'Nos Réalisations'
+    },
+    {
+        path: '/recrutement/',
+        name: 'Recrutement'
     }
 ]
 
 const Nav = () => (
-        <nav className="bg-white p-7 shadow">
+        <nav className="w-full bg-white p-7 shadow">
             <ul className="flex space-x-6 justify-end">
                 {navs.map((navItem) => (
                     <li>
-                        <Link exact to={navItem.path} activeClassName="border-b-2 border-purple-400 pb-1">
+                        <Link exact to={navItem.path} activeClassName="border-b-2 border-gray-800 pb-2">
                             {navItem.name}</Link>
                     </li>
                 ))} 
