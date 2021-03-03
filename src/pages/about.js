@@ -5,7 +5,7 @@ export default function About() {
     return (
         <Layout>
             <title>A Propos | Groupe Mantia</title>
-                <h1 className="my-8 text-center text-2xl block uppercase tracking-wide text-xs font-bold pb-6">Page à Propos</h1>
+                <h1 className="my-8 pl-32 text-2xl block uppercase tracking-wide text-xs font-bold pb-6 page-title">Page à Propos</h1>
                     <p className="p-8">
                     Novo denique perniciosoque exemplo idem Gallus ausus est inire flagitium grave, 
                     quod Romae cum ultimo dedecore temptasse aliquando dicitur Gallienus, et adhibitis 

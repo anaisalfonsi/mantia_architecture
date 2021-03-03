@@ -3,5 +3,29 @@
 @tailwind utilities;
 
 html {
-    background-color: #fff;
+    background-color:#fff;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
   }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Catamaran", Arial, Helvetica, sans-serif;
+}
+
+.page-title {
+  color:#4F46E5;
+}
+
+h2 {
+  border-bottom: 2px solid rgba(79,70,229,0.2); 
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+h2 span { 
+  background:#fff; 
+  padding:0 10px; 
+}
+
+a:hover {
+  color:#4F46E5;
+}
