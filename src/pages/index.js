@@ -9,16 +9,16 @@ export default function Home() {
         <div className="flex">
           <div className="py-8 justify-items-center">
             <h1 className="absolute z-50 pl-32 text-2xl block uppercase tracking-wide text-xs font-bold page-title">Page d'Accueil</h1>
-              <h2 className="absolute z-50 pl-32 my-12 text-lg md:text-2xl text-red-500 font-semibold home-cover-text">Slogan / phrase d'accroche / Présentation ici</h2>
+              <h3 className="absolute z-50 pl-32 my-12 text-lg md:text-2xl text-red-500 font-semibold home-cover-text">Slogan / phrase d'accroche / Présentation ici</h3>
           </div>
             <img className="relative w-full h-1/2 md:h-screen opacity-60 home-cover-img" src="https://via.placeholder.com/2400x1600.jpg" alt="mantia cover"/>
         </div>
       </section>
       <section className="h-activities-section">
         <div className="max-w-7xl mx-auto py-12">
-          <h2 class="text-center text-base text-xl text-indigo-600 font-semibold tracking-wide uppercase"><span>Nos Activités</span></h2>
+          <h2 className="lg:text-center text-base text-xl text-indigo-600 font-semibold tracking-wide uppercase"><span>Nos Activités</span></h2>
           <div className="w-full flex flex-wrap justify-center md:grid-cols-3">
-            <img className="p-4" src="https://via.placeholder.com/381x381.jpg" alt="mantia modular" />
+            <img className="home-modular-img p-4" src="https://via.placeholder.com/381x381.jpg" alt="mantia modular" />
             <img className="p-4" src="https://via.placeholder.com/381x381.jpg" alt="mantia modular" />
             <img className="p-4" src="https://via.placeholder.com/381x381.jpg" alt="mantia modular" />
             <img className="p-4" src="https://via.placeholder.com/381x381.jpg" alt="mantia modular" />
@@ -28,23 +28,23 @@ export default function Home() {
         </div>
       </section>
       <section className="h-companies-section">
-        <div class="py-12 bg-white">
-          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="lg:text-center">
-              <h2 class="text-base text-xl text-indigo-600 font-semibold tracking-wide uppercase"><span>Nos Filières</span></h2>
-              <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+        <div className="py-12 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="lg:text-center">
+              <h2 className="text-base text-xl text-indigo-600 font-semibold tracking-wide uppercase"><span>Nos Filières</span></h2>
+              <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                 Mettre un titre ici pour cette section
               </p>
-              <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+              <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
                 Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.
               </p>
             </div>
 
-            <div class="mt-10">
-              <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-3 md:gap-x-8 md:gap-y-10">
-                <div class="flex">
-                  <div class="flex-shrink-0">
-                    <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+            <div className="mt-10">
+              <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-3 md:gap-x-8 md:gap-y-10">
+                <div className="flex">
+                  <div className="flex-shrink-0">
+                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                     <svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 468.18 512">
                       <path d="M224.55,112.45v89.62H96.45V74h89.62A38.47,38.47,0,0,1,224.55,112.45Z" transform="translate(-21.91)" style={{fill:'#ffc843'}}/>
                       <path d="M224.55,112.45v52H148.7V74h37.37A38.47,38.47,0,0,1,224.55,112.45Z" transform="translate(-21.91)" style={{fill:'#76ffd9'}}/>
@@ -52,19 +52,19 @@ export default function Home() {
                       <path d="M481.85,101.12h-251A46.8,46.8,0,0,0,185.5,65.73h-3.25L156.57,5a8.25,8.25,0,0,0-15.19,0L115.7,65.73H95.88A8.24,8.24,0,0,0,87.64,74v27.15H30.15a8.24,8.24,0,0,0-8.24,8.24V175.1a8.24,8.24,0,0,0,8.24,8.24H87.64v18.73a8.24,8.24,0,0,0,8.24,8.24h12V451.69H52.06a8.24,8.24,0,0,0-8.24,8.25v43.82A8.24,8.24,0,0,0,52.06,512H167a8.25,8.25,0,0,0,0-16.49H60.31V468.18H237.64v27.33H193.36a8.25,8.25,0,1,0,0,16.49h52.53a8.24,8.24,0,0,0,8.24-8.24V459.94a8.24,8.24,0,0,0-8.24-8.25H190.08V210.31H224a8.24,8.24,0,0,0,8.24-8.24V183.34H433.15v74.79h-4.94a8.24,8.24,0,1,0,0,16.48h4.94v21a8.24,8.24,0,0,0,8.25,8.24,14.93,14.93,0,1,1-14.94,14.93,8.24,8.24,0,1,0-16.48,0,31.42,31.42,0,1,0,39.66-30.32V274.61h4.94a8.24,8.24,0,1,0,0-16.48h-4.94V183.34h32.21a8.24,8.24,0,0,0,8.24-8.24V109.37A8.25,8.25,0,0,0,481.85,101.12ZM473.6,155.2,436,117.61H473.6ZM370.28,166.86,416.11,121l45.83,45.83ZM232.22,155.2V117.61h37.59Zm55-31.65,43.3,43.31h-86.6Zm17.37-5.94h91.66l-45.83,45.83ZM149,29.4l15.37,36.33H133.6ZM87.64,155.2,50.05,117.61H87.64ZM38.4,129.27,76,166.86H38.4Zm135.2,245-45.83-45.83,45.83-45.83Zm-3.42,19.9L124.35,440V348.37Zm-45.83-85.63V222l43.3,43.3ZM136,451.69,173.6,414.1v37.59ZM173.6,247.9,136,210.31H173.6ZM156.37,82.22H185.5a30.26,30.26,0,0,1,30.23,30.23v81.37H104.13V82.22h52.24Z" transform="translate(-21.91)" style={{fill:'#434c54'}}/></svg>
                     </div>
                   </div>
-                  <div class="ml-4">
-                    <dt class="text-lg leading-6 font-medium text-gray-900">
+                  <div className="ml-4">
+                    <dt className="text-lg leading-6 font-medium text-gray-900">
                       MAT
                     </dt>
-                    <dd class="mt-2 text-base text-gray-500">
+                    <dd className="mt-2 text-base text-gray-500">
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
                     </dd>
                   </div>
                 </div>
 
-                <div class="flex">
-                  <div class="flex-shrink-0">
-                    <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                <div className="flex">
+                  <div className="flex-shrink-0">
+                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                       <svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 441.02"><path d="M503.26,408.84v58.27H383V408.84a39.44,39.44,0,0,0-39.4-39.39h-60.3a104.81,104.81,0,0,1-174.77,0H17.14V249.22h94.58a104.81,104.81,0,0,1,168.48,0h63.44C431.65,249.22,503.26,320.82,503.26,408.84Z" transform="translate(0 -35.49)" style={{fill:'#fff'}}/>
                       <path d="M166.1,90.35V74.67a29.79,29.79,0,0,1,29.79-29.79h0a29.79,29.79,0,0,1,29.79,29.79V210.13l-59.58,0V90.35Z" transform="translate(0 -35.49)" style={{fill:'#fff'}}/>
                       <path d="M415.44,431.25v35.86H383V408.84a39.44,39.44,0,0,0-39.4-39.39A62.49,62.49,0,0,1,415.44,431.25Z" transform="translate(0 -35.49)" style={{fill:'#76ffd9'}}/>
@@ -77,19 +77,19 @@ export default function Home() {
                       </svg>
                     </div>
                   </div>
-                  <div class="ml-4">
-                    <dt class="text-lg leading-6 font-medium text-gray-900">
+                  <div className="ml-4">
+                    <dt className="text-lg leading-6 font-medium text-gray-900">
                       STEC
                     </dt>
-                    <dd class="mt-2 text-base text-gray-500">
+                    <dd className="mt-2 text-base text-gray-500">
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
                     </dd>
                   </div>
                 </div>
 
-                <div class="flex">
-                  <div class="flex-shrink-0">
-                    <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                <div className="flex">
+                  <div className="flex-shrink-0">
+                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                       <svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 446.08"><path d="M315.42,95H196.32C92.73,95,8.75,179,8.75,282.59h0c0,103.59,84,187.57,187.57,187.57h119.1C419,470.16,503,386.18,503,282.59h0C503,179,419,95,315.42,95Z" transform="translate(0 -32.96)" style={{fill:'#fff'}}/>
                       <path d="M196.32,430.46c-81.53,0-147.87-66.34-147.87-147.87s66.34-147.87,147.87-147.87h119.1c81.54,0,147.87,66.33,147.87,147.87S397,430.46,315.42,430.46Z" transform="translate(0 -32.96)" style={{fill:'#76ffd9'}}/>
                       <path d="M490.36,192.85A198.3,198.3,0,0,0,432.87,125a9.1,9.1,0,0,0-12,.75A8.9,8.9,0,0,0,422,139,180.26,180.26,0,0,1,474.56,201a176.91,176.91,0,0,1,19.67,83.45c-1,98.22-82,176.84-180.26,176.84H198.18C99.41,461.27,18,381.86,17.77,283.09s80-179.19,178.69-179.19H206v87.42a9.13,9.13,0,0,0,8.6,9.25,8.89,8.89,0,0,0,9.16-8.88v-7H308.9v31a8.89,8.89,0,0,0,8.89,8.88h0a8.89,8.89,0,0,0,8.88-8.88V104.24a178.67,178.67,0,0,1,74,21.22,8.88,8.88,0,0,0,12.16-3.78,9.16,9.16,0,0,0-4.05-12,196.9,196.9,0,0,0-82.15-23.18V67.09c0-18.17-14.2-33.57-32.35-34.12a33.43,33.43,0,0,0-34.41,32.74,9.17,9.17,0,0,0,7.95,9.47,8.89,8.89,0,0,0,9.81-8.84,15.64,15.64,0,0,1,16.4-15.6c8.39.42,14.83,7.66,14.83,16.05V86.13H223.77v-19c0-18.44-14.63-34-33.07-34.14A33.4,33.4,0,0,0,157,65.77a9.15,9.15,0,0,0,8.36,9.44,8.89,8.89,0,0,0,9.4-8.53,16.87,16.87,0,0,1,3.69-10.41,15.55,15.55,0,0,1,12-5.55c8.68,0,15.55,7.43,15.55,16.1V86.13h-7.65C89.76,86.13.3,173.44,0,282S87.94,479,196.45,479H313.82C422.38,479,512.48,390.22,512,281.66A194.35,194.35,0,0,0,490.36,192.85ZM223.77,143.6V103.9H308.9v63H223.77V143.6Z" transform="translate(0 -32.96)" style={{fill:'#434c54'}}/>
@@ -101,11 +101,11 @@ export default function Home() {
                       </svg>
                     </div>
                   </div>
-                  <div class="ml-4">
-                    <dt class="text-lg leading-6 font-medium text-gray-900">
+                  <div className="ml-4">
+                    <dt className="text-lg leading-6 font-medium text-gray-900">
                       Espace Piscines
                     </dt>
-                    <dd class="mt-2 text-base text-gray-500">
+                    <dd className="mt-2 text-base text-gray-500">
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
                     </dd>
                   </div>
@@ -117,12 +117,13 @@ export default function Home() {
       </section>
       <section className="h-hiring-section">
         <div className="max-w-7xl mx-auto py-12">
-          <h2 class="mb-6 text-center text-base text-xl text-indigo-600 font-semibold tracking-wide uppercase"><span>Travailler chez Mantia</span></h2>
-          <div className="flex flex-row-reverse bg-gray-400 mt-8">
-            <p className="z-50 pl-32 pr-16 self-center md:grid-cols-2 md:text-xl lg:text-3xl text-gray-100 font-medium"><span className="text-red-800 p-4 md:text-xl lg:text-2xl">Témoignage (ou juste phrase d'accroche)
-            </span><br />"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut dui risus. Vestibulum ullamcorper tincidunt sem, a luctus orci ultrices vel."
-            <br /><a href="/recrutement" className="my-4 shadow bg-gray-300 hover:text-indigo-600 focus:shadow-outline 
-                                          focus:outline-none md:text-base text-black py-3 px-4 rounded">En savoir plus</a></p>
+          <h2 className="mb-6 lg:text-center text-base text-xl text-indigo-600 font-semibold tracking-wide uppercase"><span>Travailler chez Mantia</span></h2>
+          <div className="flex flex-col-reverse md:flex-row-reverse bg-gray-400 mt-8">
+          <a href="/recrutement" className="my-4 md:my-32 md:self-start text-center shadow bg-gray-300 text-indigo-600 hover:bg-white focus:shadow-outline 
+              focus:outline-none md:text-base text-black py-3 px-4 rounded">Nous rejoindre</a>
+            <p className="z-50 py-8 px-8 md:pl-32 md:pr-16 self-center md:grid-cols-2 md:text-xl lg:text-3xl text-gray-100 font-medium">
+              <span className="text-red-800 p-4 md:text-xl lg:text-2xl">Témoignage (ou juste phrase d'accroche)
+            </span>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut dui risus. Vestibulum ullamcorper tincidunt sem, a luctus orci ultrices vel."</p>
             <img className="relative w-full h-96 opacity-30" src="https://via.placeholder.com/2400x1600.jpg" alt="mantia temoignage"/>
           </div>
         </div>

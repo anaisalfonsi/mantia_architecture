@@ -6,25 +6,30 @@ const Footer = () => (
     <footer className="w-full mt-12 border-t border-black pin-b bg-black text-gray-100 text-sm">
         <div className="p-32 space-y-10 md:space-y-0 md:grid lg:grid-cols-5 2xl:grid-cols-4 md:gap-x-8 md:gap-y-10">
             <div>
-                <img src="" alt="" /><h4 className="uppercase tracking-wider font-bold">LOGO ICI</h4>
+                <img src="" alt="" /><h4 className="mb-2 uppercase tracking-wider text-base font-semibold">LOGO ICI</h4>
                 <p>Adresse</p>
                 <p>Numéro de tel ?</p>
             </div>
             <div>
-                <h4 className="uppercase tracking-wider font-bold">Suivez-nous</h4>
+                <h4 className="mb-2 uppercase tracking-wider text-base font-semibold">Contactez-nous</h4>
+                <div><Link to="/contact">Contact</Link></div>
                 <ul className="icons">
                     <li><FontAwesomeIcon icon={["fas", "facebook"]} /></li>
                     <li><FontAwesomeIcon icon={["fas", "linkedin"]} /></li>
                 </ul>
             </div>
             <div>
-                <h4 className="mb-4 uppercase tracking-wider font-bold"><Link to="/contact">Contact</Link></h4>
-                <h4 className="uppercase tracking-wider font-bold">Recrutement</h4>
+                <h4 className="mb-2 uppercase tracking-wider text-base font-semibold">Rubriques</h4>
+                <h5 className="text-sm font-semibold"><Link to="/about">Le Groupe</Link></h5>
+                <h5 className="text-sm font-semibold"><Link to="/nos-filieres">Nos Filières</Link></h5>
+                <h5 className="text-sm font-semibold"><Link to="/nos-realisations">Nos Réalisations</Link></h5>
+                <h5 className="text-sm font-semibold">Recrutement</h5>
                 <div><Link to="/recrutement">Pourquoi nous rejoindre ?</Link></div>
                 <div><Link to="/candidature-spontanee">Candidature spontanée</Link></div>
             </div>
             <div>
-                <ul className="mt-4">
+            <h4 className="mb-2 uppercase tracking-wider text-base font-semibold">Création du site</h4>
+                <ul>
                     <li>Plan du site</li>
                     <li>Mentions Légales</li>
                     <li>Politiques de confidentialité</li>

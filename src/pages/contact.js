@@ -20,7 +20,7 @@ export default function About() {
               <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                 <label
                   className="block uppercase tracking-wide  text-xs font-bold mb-2"
-                  for="grid-first-name"
+                  htmlFor="grid-first-name"
                 >
                   Votre Prénom *
                 </label>
@@ -37,7 +37,7 @@ export default function About() {
               <div className="w-full md:w-1/2 px-3">
                 <label
                   className="block uppercase tracking-wide  text-xs font-bold mb-2"
-                  for="grid-last-name"
+                  htmlFor="grid-last-name"
                 >
                   Votre Nom *
                 </label>
@@ -56,7 +56,7 @@ export default function About() {
               <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                 <label
                   className="block uppercase tracking-wide  text-xs font-bold mb-2"
-                  for="contact-email"
+                  htmlFor="contact-email"
                 >
                   Votre Email *
                 </label>
@@ -73,7 +73,7 @@ export default function About() {
               <div className="w-full md:w-1/2 px-3">
                 <label
                   className="block uppercase tracking-wide text-xs font-bold mb-2"
-                  for="contact-phone"
+                  htmlFor="contact-phone"
                 >
                   Votre Téléphone
                 </label>
@@ -91,7 +91,7 @@ export default function About() {
               <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                 <label
                   className="block uppercase tracking-wide text-xs font-bold mb-2"
-                  for="contact-subject"
+                  htmlFor="contact-subject"
                 >
                   Objet *
                 </label>
@@ -111,7 +111,7 @@ export default function About() {
               <div className="w-full md:w-1/2 px-3">
                 <label
                   className="block uppercase tracking-wide text-xs font-bold mb-2"
-                  for="contact-company"
+                  htmlFor="contact-company"
                 >
                   Entreprise de contact *
                 </label>
@@ -132,7 +132,7 @@ export default function About() {
               <div className="w-full px-3">
                 <label
                   className="block uppercase tracking-wide  text-xs font-bold mb-2"
-                  for="grid-password"
+                  htmlFor="message"
                 >
                   Votre Message *
                 </label>
