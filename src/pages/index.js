@@ -15,9 +15,9 @@ export default function Home() {
         </div>
       </section>
       <section className="h-activities-section">
-        <div className="max-w-7xl mx-auto py-12">
-          <h2 className="lg:text-center text-base text-xl text-indigo-600 font-semibold tracking-wide uppercase"><span>Nos Activités</span></h2>
-          <div className="w-full flex flex-wrap justify-center md:grid-cols-3">
+        <div className="max-w-7xl mx-auto mt-8 pt-12">
+          <h2 className="text-base text-xl text-indigo-600 font-semibold tracking-wide uppercase"><span>Nos Activités</span></h2>
+          <div className="mt-16 w-full flex flex-wrap justify-center md:grid-cols-3">
             <img className="home-modular-img p-4" src="https://via.placeholder.com/381x381.jpg" alt="mantia modular" />
             <img className="p-4" src="https://via.placeholder.com/381x381.jpg" alt="mantia modular" />
             <img className="p-4" src="https://via.placeholder.com/381x381.jpg" alt="mantia modular" />
@@ -28,11 +28,11 @@ export default function Home() {
         </div>
       </section>
       <section className="h-companies-section">
-        <div className="py-12 bg-white">
+        <div className="mt-8 py-12 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="lg:text-center">
+            <div>
               <h2 className="text-base text-xl text-indigo-600 font-semibold tracking-wide uppercase"><span>Nos Filières</span></h2>
-              <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+              <p className="mt-16 text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                 Mettre un titre ici pour cette section
               </p>
               <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
@@ -117,13 +117,13 @@ export default function Home() {
       </section>
       <section className="h-hiring-section">
         <div className="max-w-7xl mx-auto py-12">
-          <h2 className="mb-6 lg:text-center text-base text-xl text-indigo-600 font-semibold tracking-wide uppercase"><span>Travailler chez Mantia</span></h2>
-          <div className="flex flex-col-reverse md:flex-row-reverse bg-gray-400 mt-8">
+          <h2 className="mb-6 text-base text-xl text-indigo-600 font-semibold tracking-wide uppercase"><span>Travailler chez Mantia</span></h2>
+          <div className="mt-20 flex flex-col-reverse md:flex-row-reverse bg-gray-400">
           <a href="/recrutement" className="my-4 md:my-32 md:self-start text-center shadow bg-gray-300 text-indigo-600 hover:bg-white focus:shadow-outline 
               focus:outline-none md:text-base text-black py-3 px-4 rounded">Nous rejoindre</a>
-            <p className="z-50 py-8 px-8 md:pl-32 md:pr-16 self-center md:grid-cols-2 md:text-xl lg:text-3xl text-gray-100 font-medium">
+            <p className="z-50 py-8 px-8 md:pl-32 md:pr-16 self-center md:grid-cols-2 md:text-xl lg:text-3xl text-gray-100 font-medium home-testimonial">
               <span className="text-red-800 p-4 md:text-xl lg:text-2xl">Témoignage (ou juste phrase d'accroche)
-            </span>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut dui risus. Vestibulum ullamcorper tincidunt sem, a luctus orci ultrices vel."</p>
+            </span><br />"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut dui risus. Vestibulum ullamcorper tincidunt sem, a luctus orci ultrices vel."</p>
             <img className="relative w-full h-96 opacity-30" src="https://via.placeholder.com/2400x1600.jpg" alt="mantia temoignage"/>
           </div>
         </div>

@@ -1,29 +1,30 @@
 import React from "react";
 import { Link } from "gatsby";
 
+const navs = [
+    {
+        path: '/',
+        name: 'Accueil'
+    },
+    {
+        path: '/about',
+        name: 'Le Groupe'
+    },
+    {
+        path: '/nos-filieres',
+        name: 'Nos Filières'
+    },
+    {
+        path: '/nos-realisations',
+        name: 'Nos Réalisations'
+    },
+    {
+        path: '/recrutement',
+        name: 'Recrutement'
+    }
+];
+
 export default function Nav()  {
-    const navs = [
-        {
-            path: '/',
-            name: 'Accueil'
-        },
-        {
-            path: '/about',
-            name: 'Le Groupe'
-        },
-        {
-            path: '/nos-filieres',
-            name: 'Nos Filières'
-        },
-        {
-            path: '/nos-realisations',
-            name: 'Nos Réalisations'
-        },
-        {
-            path: '/recrutement',
-            name: 'Recrutement'
-        }
-    ];
     return (
         <div className="w-full mx-auto p-5">
             <nav className="flex-row md:justify-around">
@@ -43,7 +44,7 @@ export default function Nav()  {
                             <ul className="md:flex md:flex-row self-center">
                             {navs.map((navItem, index) => (
                                 <li className="pr-5" key={index}>
-                                    <Link to={navItem.path} className="menu-item" activeClassName="border-b-2 border-gray-800 pb-2">
+                                    <Link to={navItem.path} className="menu-item" activeClassName="border-b-2 border-indigo-600">
                                         {navItem.name}</Link>
                                 </li>
                             ))}

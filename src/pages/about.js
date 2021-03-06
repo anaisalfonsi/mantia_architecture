@@ -11,7 +11,7 @@ export default function About() {
                         <h2 className="text-base text-xl text-indigo-600 font-semibold tracking-wide uppercase"><span>à propos</span></h2>
                             <div className="mt-16 flex flex-col justify-center lg:flex-row">
                                 <div className="px-32">----</div>
-                                <p className="text-lg py-8 px-32 lg:mr-32 font-light">
+                                <p className="text-lg py-8 px-8 lg:px-32 lg:mr-32 font-light">
                                 Novo denique perniciosoque exemplo idem Gallus ausus est inire flagitium grave, 
                                 quod Romae cum ultimo dedecore temptasse aliquando dicitur Gallienus, et adhibitis 
                                 paucis clam ferro succinctis vesperi per tabernas palabatur et conpita quaeritando 
