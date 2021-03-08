@@ -13,17 +13,17 @@ export default function Achievements() {
             <h4><span className="text-xl font-light">Chercher par Filière : </span><span><button className="ml-8 mr-8 uppercase tracking-wide font-semibold text-indigo-600">Construction/Habitat</button></span><span><button className="mr-8 uppercase tracking-wide font-semibold text-indigo-600">Electricité/Plomberie</button></span><span><button className="mr-8 uppercase tracking-wide font-semibold text-indigo-600">Piscine/Sauna</button></span></h4>
           </div>
         </section>
-        <section>
+        <section className="all-realisation-gallery">
           <div class="container my-12 mx-auto px-4 md:px-12">
               <div class="flex flex-wrap -mx-1 lg:-mx-4">
                   <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
                       <article class="overflow-hidden  shadow-lg">
-                          <a href="/internal-link">
+                          <a href="/realisation-1">
                               <img alt="Placeholder" class="block h-auto w-full" src="https://via.placeholder.com/600x400.jpg" />
                           </a>
                           <div class="flex items-center justify-between leading-tight p-2 md:p-4">
                               <h1 class="text-lg">
-                                  <a class="no-underline hover:underline text-black" href="/internal-link">
+                                  <a class="no-underline hover:underline text-black" href="/realisation-1">
                                       Nom Chantier
                                   </a>
                               </h1>
@@ -32,13 +32,13 @@ export default function Achievements() {
                               </p>
                           </div>
                           <div class="flex items-center justify-between leading-none p-2 md:p-4">
-                              <a class="flex items-center no-underline hover:underline text-black" href="/internal-link">
+                              <a class="flex items-center no-underline hover:underline text-black" href="/realisation-1">
                                   
                                   <p class="ml-2 text-sm">
                                       Lieu
                                   </p>
                               </a>
-                              <a class="no-underline text-grey-darker hover:text-red-dark" href="/internal-link">
+                              <a class="no-underline text-grey-darker hover:text-red-dark" href="/realisation-1">
                                   <span class="hidden">Like</span>
                                   <i class="fa fa-heart"></i>
                               </a>
@@ -47,12 +47,12 @@ export default function Achievements() {
                   </div>
                   <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
                       <article class="overflow-hidden  shadow-lg">
-                          <a href="/internal-link">
+                          <a href="/realisation-1">
                               <img alt="Placeholder" class="block h-auto w-full" src="https://via.placeholder.com/600x400.jpg" />
                           </a>
                           <div class="flex items-center justify-between leading-tight p-2 md:p-4">
                               <h1 class="text-lg">
-                                  <a class="no-underline hover:underline text-black" href="/internal-link">
+                                  <a class="no-underline hover:underline text-black" href="/realisation-1">
                                       Nom Chantier
                                   </a>
                               </h1>
@@ -61,13 +61,13 @@ export default function Achievements() {
                               </p>
                           </div>
                           <div class="flex items-center justify-between leading-none p-2 md:p-4">
-                              <a class="flex items-center no-underline hover:underline text-black" href="/internal-link">
+                              <a class="flex items-center no-underline hover:underline text-black" href="/realisation-1">
                                   
                                   <p class="ml-2 text-sm">
                                       Lieu
                                   </p>
                               </a>
-                              <a class="no-underline text-grey-darker hover:text-red-dark" href="/internal-link">
+                              <a class="no-underline text-grey-darker hover:text-red-dark" href="/realisation-1">
                                   <span class="hidden">Like</span>
                                   <i class="fa fa-heart"></i>
                               </a>
@@ -76,12 +76,12 @@ export default function Achievements() {
                   </div>
                   <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
                       <article class="overflow-hidden  shadow-lg">
-                          <a href="/internal-link">
+                          <a href="/realisation-1">
                               <img alt="Placeholder" class="block h-auto w-full" src="https://via.placeholder.com/600x400.jpg" />
                           </a>
                           <div class="flex items-center justify-between leading-tight p-2 md:p-4">
                               <h1 class="text-lg">
-                                  <a class="no-underline hover:underline text-black" href="/internal-link">
+                                  <a class="no-underline hover:underline text-black" href="/realisation-1">
                                       Nom Chantier
                                   </a>
                               </h1>
@@ -90,12 +90,12 @@ export default function Achievements() {
                               </p>
                           </div>
                           <div class="flex items-center justify-between leading-none p-2 md:p-4">
-                              <a class="flex items-center no-underline hover:underline text-black" href="/internal-link">
+                              <a class="flex items-center no-underline hover:underline text-black" href="/realisation-1">
                                   <p class="ml-2 text-sm">
                                       Lieu
                                   </p>
                               </a>
-                              <a class="no-underline text-grey-darker hover:text-red-dark" href="/internal-link">
+                              <a class="no-underline text-grey-darker hover:text-red-dark" href="/realisation-1">
                                   <span class="hidden">Like</span>
                                   <i class="fa fa-heart"></i>
                               </a>
@@ -104,12 +104,12 @@ export default function Achievements() {
                   </div>
                   <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
                       <article class="overflow-hidden  shadow-lg">
-                          <a href="/internal-link">
+                          <a href="/realisation-1">
                               <img alt="Placeholder" class="block h-auto w-full" src="https://via.placeholder.com/600x400.jpg" />
                           </a>
                           <div class="flex items-center justify-between leading-tight p-2 md:p-4">
                               <h1 class="text-lg">
-                                  <a class="no-underline hover:underline text-black" href="/internal-link">
+                                  <a class="no-underline hover:underline text-black" href="/realisation-1">
                                       Nom Chantier
                                   </a>
                               </h1>
@@ -118,12 +118,12 @@ export default function Achievements() {
                               </p>
                           </div>
                           <div class="flex items-center justify-between leading-none p-2 md:p-4">
-                              <a class="flex items-center no-underline hover:underline text-black" href="/internal-link">
+                              <a class="flex items-center no-underline hover:underline text-black" href="/realisation-1">
                                   <p class="ml-2 text-sm">
                                       Lieu
                                   </p>
                               </a>
-                              <a class="no-underline text-grey-darker hover:text-red-dark" href="/internal-link">
+                              <a class="no-underline text-grey-darker hover:text-red-dark" href="/realisation-1">
                                   <span class="hidden">Like</span>
                                   <i class="fa fa-heart"></i>
                               </a>
@@ -132,12 +132,12 @@ export default function Achievements() {
                   </div>
                   <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
                       <article class="overflow-hidden  shadow-lg">
-                          <a href="/internal-link">
+                          <a href="/realisation-1">
                               <img alt="Placeholder" class="block h-auto w-full" src="https://via.placeholder.com/600x400.jpg" />
                           </a>
                           <div class="flex items-center justify-between leading-tight p-2 md:p-4">
                               <h1 class="text-lg">
-                                  <a class="no-underline hover:underline text-black" href="/internal-link">
+                                  <a class="no-underline hover:underline text-black" href="/realisation-1">
                                       Nom Chantier
                                   </a>
                               </h1>
@@ -146,13 +146,13 @@ export default function Achievements() {
                               </p>
                           </div>
                           <div class="flex items-center justify-between leading-none p-2 md:p-4">
-                              <a class="flex items-center no-underline hover:underline text-black" href="/internal-link">
+                              <a class="flex items-center no-underline hover:underline text-black" href="/realisation-1">
                                   
                                   <p class="ml-2 text-sm">
                                       Lieu
                                   </p>
                               </a>
-                              <a class="no-underline text-grey-darker hover:text-red-dark" href="/internal-link">
+                              <a class="no-underline text-grey-darker hover:text-red-dark" href="/realisation-1">
                                   <span class="hidden">Like</span>
                                   <i class="fa fa-heart"></i>
                               </a>
@@ -161,12 +161,12 @@ export default function Achievements() {
                   </div>
                   <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
                       <article class="overflow-hidden  shadow-lg">
-                          <a href="/internal-link">
+                          <a href="/realisation-1">
                               <img alt="Placeholder" class="block h-auto w-full" src="https://via.placeholder.com/600x400.jpg" />
                           </a>
                           <div class="flex items-center justify-between leading-tight p-2 md:p-4">
                               <h1 class="text-lg">
-                                  <a class="no-underline hover:underline text-black" href="/internal-link">
+                                  <a class="no-underline hover:underline text-black" href="/realisation-1">
                                       Nom Chantier
                                   </a>
                               </h1>
@@ -175,13 +175,13 @@ export default function Achievements() {
                               </p>
                           </div>
                           <div class="flex items-center justify-between leading-none p-2 md:p-4">
-                              <a class="flex items-center no-underline hover:underline text-black" href="/internal-link">
+                              <a class="flex items-center no-underline hover:underline text-black" href="/realisation-1">
                                   
                                   <p class="ml-2 text-sm">
                                       Lieu
                                   </p>
                               </a>
-                              <a class="no-underline text-grey-darker hover:text-red-dark" href="/internal-link">
+                              <a class="no-underline text-grey-darker hover:text-red-dark" href="/realisation-1">
                                   <span class="hidden">Like</span>
                                   <i class="fa fa-heart"></i>
                               </a>
