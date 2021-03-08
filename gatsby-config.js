@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Mantia_Navigation",
+    siteUrl: "https://determined-hoover-1d1e72.com"
   },
   plugins: [
     "gatsby-plugin-sharp",
