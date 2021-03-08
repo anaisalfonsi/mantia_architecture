@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Mantia_Architecture",
+    title: "Mantia_Navigation",
   },
   plugins: [
     "gatsby-plugin-sharp",
