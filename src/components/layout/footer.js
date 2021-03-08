@@ -15,8 +15,8 @@ export default function Footer() {
                     <h4 className="mb-2 uppercase tracking-wider text-base font-semibold">Contactez-nous</h4>
                     <div><Link to="/contact">Contact</Link></div>
                     <ul className="mt-4 md:mt-2 lg:mt-0 flex flex-col lg:flex-row icons">
-                        <li className="mb-2 lg:mb-0 lg:mr-2"><Link to=""><FaFacebookSquare size="40px"/></Link></li>
-                        <li><Link to=""><FaLinkedin size="40px"/></Link></li>
+                        <li className="mb-2 lg:mb-0 lg:mr-2"><a href="https://www.facebook.com"><FaFacebookSquare size="40px" aria-label="linkedin icon"/></a></li>
+                        <li><a href="https://www.linkedin.com"><FaLinkedin size="40px" aria-label="linkedin icon"/></a></li>
                     </ul>
                 </div>
                 <div className="my-4 text-lg lg:text-base">
@@ -31,9 +31,9 @@ export default function Footer() {
                 <div className="my-4 text-lg lg:text-base">
                 <h4 className="mb-2 uppercase tracking-wider text-base font-semibold">Le site</h4>
                     <ul>
-                        <li><Link to="">Plan du site</Link></li>
-                        <li><Link to="">Mentions Légales</Link></li>
-                        <li><Link to="">Politiques de confidentialité</Link></li>
+                        <li><Link to="/internal-link">Plan du site</Link></li>
+                        <li><Link to="/internal-link">Mentions Légales</Link></li>
+                        <li><Link to="/internal-link">Politiques de confidentialité</Link></li>
                     </ul>
                     <div className="mt-8 text-sm font-light">
                         <div>Created with <span role="img" aria-label="footer-passion">🔥❤️🔥</span> by <span className="text-indigo-500">Anaïs Alfonsi</span></div>
